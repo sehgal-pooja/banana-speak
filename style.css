@@ -1,0 +1,12 @@
+#btn-click{
+    border-radius: 0.5rem;
+    margin: 10rem;
+    height: 2rem ;
+    width: 5rem;
+}
+#txt-area{
+    padding: 2rem;
+    margin: 2rem;
+    height: 10rem;
+    width: 30rem;
+}
