@@ -1,18 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
+
+:root{
+    --primary : #FCD34D;
+}
+body{
+    font-family: 'Gluten', cursive;
+    margin: 0px;
+}
 #btn-click{
     border-radius: 0.5rem;
     margin: 1rem;
+    padding: 1rem;
+    align-self: center;
+    background-color: var(--primary);
+    margin-left: 20%;
 }
 #txt-area{
-    width: 80%;
-    height: 10vh;
+    width: 60%;
+    height:15vh;
     display: block;
-    margin: 1rem;
+    margin-right: 20%;
+    margin-left: 20%;
     padding: 1rem;
 }
 #output{
     border: 1px solid black;
-    width: 80%;
-    height: 10vh;
-    margin: 1rem;
+    width: 60%;
+    height:15vh;
+    margin-right: 20%;
+    margin-left: 20%;
     padding: 1rem;
 }
+
+h1{
+    text-align: center;
+    padding: 2rem;
+    margin-top: 0ch;
+    background-color: var(--primary); 
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--primary);
+    margin: auto;
+    margin-top: 3%;
+}
+
+footer p {
+    max-width: 600px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+
